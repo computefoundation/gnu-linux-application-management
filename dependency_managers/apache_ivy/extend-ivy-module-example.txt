@@ -1,0 +1,67 @@
+
+An example on extending an Ivy module
+
+===========================================================================================================
+
+=======================================
+  ivysettings.xml
+=======================================
+
+<?xml version="1.0"?>
+<ivysettings>
+    <settings defaultResolver="<default_resolver_name>"/>
+
+    <property name="m2.repo.relpath" value="[organisation]/[module]/[revision]"/>
+    <property name='parent.artifact-name' value='<main_artifact_name>'/>
+    <property name='parent.version' value='<main_artifact_revision>'/>
+
+    ...
+
+</ivysettings>
+
+=======================================
+  ivy.xml
+=======================================
+
+<?xml version="1.0"?>
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+
+    <info
+        organisation='<organisation_name>'
+        module='${parent.artifact-name}'
+        revision='${parent.version}'/>
+
+    <dependencies defaultconf="default">
+        ...dependencies...
+    </dependencies>
+
+    ...
+
+</ivy-module>
+
+=======================================
+  ivy-child.xml
+=======================================
+
+<?xml version="1.0"?>
+<ivy-module version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+
+    <info 
+        organisation='<organisation_name>'
+        module='<child_module_name>'
+        revision='${parent.version}'>
+
+        <extends
+             organisation='<organisation_name>'
+             module='${parent.artifact-name}'
+             revision='${parent.version}'
+             location='./ivy.xml'/>
+
+    </info>
+
+    ...
+
+</ivy-module>
+
