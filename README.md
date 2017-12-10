@@ -7,7 +7,7 @@
 
 # Software categories
 
-Applications provides solutions for the following software categories:
+Applications provides the following solutions in each of the following software categories:
 
 ## Application servers
 
