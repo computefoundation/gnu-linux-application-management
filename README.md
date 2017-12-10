@@ -17,6 +17,14 @@ Application servers solutions
 
 * [Instructions on setting up the PostgreSQL database with the WildFly application server](application_servers/wildfly/set-up-postgresql-with-wildfly-instructions.txt)
 
+## Databases
+
+Databases solutions
+
+### MySQL
+
+* [MySQL general user commands](databases/mysql/mysql-general-user-commands.txt)
+
 ## Dependency managers
 
 Dependency managers solutions

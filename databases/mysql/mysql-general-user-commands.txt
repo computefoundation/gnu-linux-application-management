@@ -1,0 +1,35 @@
+
+MySQL general user commands
+
+===========================================================================================================
+
+=======================================
+  User management
+=======================================
+
+# Create a user and grant it all privileges
+CREATE USER '<user>'@'localhost' IDENTIFIED BY '';
+
+# Grant a user all privileges on all databases
+GRANT ALL PRIVILEGES ON <database_name>.* TO '<user>'@'localhost';
+FLUSH PRIVILEGES;
+
+# Grant a user specific privileges on a table
+GRANT <privilege_type> ON <database_name>.<table_name> TO '<user>'@'localhost';
+FLUSH PRIVILEGES;
+
+# Drop a user
+DROP USER '<user>'@'localhost';
+
+# Update a user's password
+USE mysql;
+UPDATE user SET Password=PASSWORD('<new_password>') where user='<user>';
+FLUSH PRIVILEGES;
+
+=======================================
+  Table management
+=======================================
+
+# Describe a table
+DESCRIBE <table_name>;
+
