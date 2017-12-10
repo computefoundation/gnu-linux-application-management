@@ -1,0 +1,49 @@
+
+Instructions on setting up the PostgreSQL database with the WildFly application server
+
+===========================================================================================================
+
+1. Start the WildFly application server.
+
+2. Connect to the WildFly command line interface (CLI) by running the following (Note: $JBOSS_HOME must be defined as
+   the path to the installation directory of WildFly):
+
+      $JBOSS_HOME/bin/jboss-cli.sh
+
+3. Run "connect" and log in.
+
+---------------------------------------
+  PostgreSQL JDBC driver
+---------------------------------------
+
+Steps 4 and 5 are instructions on installing the PostgreSQL JDBC driver for WildFly and are not needed if the driver is
+provided in an application's jar path.
+
+4. Go to "https://jdbc.postgresql.org/download.html" and download the lastest jar.
+
+Note: The remaining commands in this document may contain content sections ("<content>") that need to be replaced with
+the correct content.
+
+5. Install the driver by running the following in the CLI:
+
+      module add --name=org.postgresql --slot=main --resources=<path/to/jar> \
+          --dependencies=javax.api,javax.transaction.api
+
+---------------------------------------
+  PostgreSQL JDBC datasource
+---------------------------------------
+
+Steps 6 is an instruction on adding PostgreSQL as a datasource for WildFly.
+
+Note: WildFly datasources can also be defined in WildFly persistence.xml file of an application.
+
+6. Set up the PostgreSQL datasource by running the following two commands in the CLI:
+
+      /subsystem=datasources/jdbc-driver=postgres:add(driver-name="postgres",\
+          driver-module-name="org.postgresql",driver-class-name=org.postgresql.Driver)
+
+      data-source add --name=PostgresDS \
+          --connection-url=jdbc:postgresql://127.0.0.1:<postgresql_port>/<postgresql_database> \
+          --driver-name=postgres --jndi-name=java:jboss/datasources/PostgresDS \
+          --user-name=<postgresql_username> --initial-pool-size=2 --max-pool-size=10 --query-timeout=5
+

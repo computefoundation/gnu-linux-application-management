@@ -9,6 +9,14 @@
 
 Applications provides solutions for the following software categories:
 
+## Application servers
+
+Application servers solutions
+
+### WildFly
+
+* [Instructions on setting up the PostgreSQL database with the WildFly application server](application_servers/wildfly/set-up-postgresql-with-wildfly-instructions.txt)
+
 ## Dependency managers
 
 Dependency managers solutions
