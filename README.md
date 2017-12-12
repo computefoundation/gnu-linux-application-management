@@ -24,7 +24,7 @@ Databases solutions
 ### MySQL
 
 * [MySQL general user commands](databases/mysql/mysql-general-user-commands.txt)
-* [Instructions on resetting the MySQL root user password](databases/mysql/reset-mysql-root-user-password-instructions.txt)
+* [Instructions on resetting a MySQL root user password](databases/mysql/reset-mysql-root-user-password-instructions.txt)
 
 ## Dependency managers
 
