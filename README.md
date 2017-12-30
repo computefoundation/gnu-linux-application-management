@@ -2,12 +2,12 @@
 <img src='https://raw.githubusercontent.com/unixfoundation/applications/images/logo.png' width='32%' align='left' alt='logo.png'>
 <br><br>
 
-**Applications** is a resource of Unix-founded solutions for applications. It targets multiple categories of software.
+**Applications** is a resource of Unix-founded solutions for applications in multiple categories.
 <br><br><br><br><br>
 
-# Software categories
+# Application categories
 
-Applications provides the following solutions in each of the following software categories:
+Applications provides the following solutions in each of the following categories:
 
 ## Application servers
 
