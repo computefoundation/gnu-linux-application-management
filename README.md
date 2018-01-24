@@ -1,13 +1,14 @@
 
-<img src='https://raw.githubusercontent.com/computingfoundation/applications/images/logo.png' width='32%' align='left' alt='logo.png'>
-<br><br>
+<div align='center'>
+	<img src='https://raw.githubusercontent.com/computingfoundation/applications/images/logo.png' width='40%' alt='logo.png'>
+</div>
+<br><br><br>
 
 This is a resource of Unix-founded document solutions for applications in all categories.
-<br><br><br><br><br>
 
 # Categories
 
-This repository currently provides the following solutions in the following categories:
+It currently provides the following solutions in the following categories:
 
 ## Application servers
 
