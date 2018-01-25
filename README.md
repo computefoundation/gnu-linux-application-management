@@ -4,7 +4,7 @@
 </div>
 <br><br><br>
 
-This is a resource of Unix-founded document solutions for applications in all categories.
+**Applications** is a resource of Unix-founded document solutions to application problems.
 
 # Categories
 
