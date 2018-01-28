@@ -1,14 +1,14 @@
 
 <div align='center'>
-	<img src='https://raw.githubusercontent.com/computingfoundation/applications/images/logo.png' width='40%' alt='logo.png'>
+	<img src='https://raw.githubusercontent.com/computingfoundation/application-management/images/logo.png' width='40%' alt='logo.png'>
 </div>
 <br><br><br>
 
-**Applications** is a resource of Unix-founded document solutions to application problems.
+**Application-management** is a resource of Unix-founded document solutions to application management problems.
 
-# Categories
+# Application categories
 
-It currently provides the following solutions in the following categories:
+It currently provides the following solutions in the following application categories:
 
 ## Application servers
 
