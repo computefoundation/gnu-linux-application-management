@@ -4,7 +4,7 @@
 </div>
 <br><br><br>
 
-**Application-management** is a resource of Unix-founded document solutions to application management problems.
+**Application-management** is a resource of document solutions to foundational application management problems.
 
 # Application categories
 
