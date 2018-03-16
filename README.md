@@ -1,10 +1,10 @@
 
 <div align='center'>
-	<img src='https://raw.githubusercontent.com/computingfoundation/application-management/images/logo.png' width='40%' alt='logo.png'>
+	<img src='https://raw.githubusercontent.com/computingfoundation/gnu-linux-application-management/images/logo.png' width='40%' alt='logo.png'>
 </div>
 <br><br><br>
 
-**Application-management** is a resource of document solutions to foundational application management problems.
+**Gnu-linux-application-management** is a resource of document solutions to foundational GNU/Linux application management problems.
 
 # Application categories
 
