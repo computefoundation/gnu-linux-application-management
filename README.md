@@ -4,7 +4,7 @@
 </div>
 <br><br><br>
 
-**Gnu-linux-application-management** is a resource of document solutions to foundational GNU/Linux application management problems.
+**Gnu-linux-application-management** is a resource of document solutions functioning as a foundation for GNU/Linux application management.
 
 # Application categories
 
@@ -12,7 +12,7 @@ It currently provides the following solutions in the following application categ
 
 ## Application servers
 
-Application servers solutions
+Application server solutions
 
 ### WildFly
 
@@ -20,7 +20,7 @@ Application servers solutions
 
 ## Databases
 
-Databases solutions
+Database solutions
 
 ### MySQL
 
@@ -29,7 +29,7 @@ Databases solutions
 
 ## Dependency managers
 
-Dependency managers solutions
+Dependency manager solutions
 
 ### Apache Ivy
 
