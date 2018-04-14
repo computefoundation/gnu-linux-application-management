@@ -4,7 +4,7 @@ Instructions on setting up the PostgreSQL database with the WildFly application 
 ===========================================================================================================
 
 ----------------------------------------------
-  Start WildFly and connecting to its command line interface (CLI)
+  Connect to the WildFly command line interface (CLI).
 ----------------------------------------------
 
 1. Start the WildFly application server.
@@ -17,7 +17,7 @@ Instructions on setting up the PostgreSQL database with the WildFly application 
 3. Run "connect" and log in.
 
 ----------------------------------------------
-  Install the PostgreSQL JDBC driver
+  Install the PostgreSQL JDBC driver.
 ----------------------------------------------
 
 Note: These steps are not needed if the driver is provided in an application's jar path.
@@ -33,7 +33,7 @@ respectively.
           --dependencies=javax.api,javax.transaction.api
 
 ----------------------------------------------
-  Add PostgreSQL as a JDBC datasource (optional)
+  (Optional) Add PostgreSQL as a JDBC datasource.
 ----------------------------------------------
 
 Note: WildFly datasources can also be defined in an application's WildFly persistence.xml file.
