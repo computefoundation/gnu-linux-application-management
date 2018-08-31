@@ -4,7 +4,7 @@
 </div>
 <br><br><br>
 
-**Gnu-linux-application-management** is a resource of document solutions functioning as a foundation for GNU/Linux application management.
+**Gnu-linux-application-management** is a foundation for GNU/Linux application management.
 
 # Application categories
 
