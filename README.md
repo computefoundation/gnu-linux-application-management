@@ -1,6 +1,6 @@
 
 <div align='center'>
-	<img src='https://raw.githubusercontent.com/computingfoundation/gnu-linux-application-management/images/logo.png' width='40%' alt='logo.png'>
+	<img src='https://raw.githubusercontent.com/computefoundation/gnu-linux-application-management/images/logo.png' width='40%' alt='logo.png'>
 </div>
 <br><br><br>
 
