@@ -1,26 +1,22 @@
-
+<br>
 <div align='center'>
 	<img src='https://raw.githubusercontent.com/computefoundation/gnu-linux-application-management/images/logo.png' width='40%' alt='logo.png'>
 </div>
-<br><br><br>
+<br><br>
 
-**Gnu-linux-application-management** is a foundation for GNU/Linux application management.
+**Gnu-linux-application-management** is a repository of foundational solutions for application management in GNU/Linux.
 
 # Application categories
 
-It currently provides the following solutions in the following application categories:
+It provides solutions in the following application categories with examples:
 
 ## Application servers
-
-Application server solutions
 
 ### WildFly
 
 * [Instructions on setting up the PostgreSQL database with the WildFly application server](application_servers/wildfly/set-up-postgresql-with-wildfly-instructions.txt)
 
 ## Databases
-
-Database solutions
 
 ### MySQL
 
@@ -29,18 +25,6 @@ Database solutions
 
 ## Dependency managers
 
-Dependency manager solutions
-
 ### Apache Ivy
 
 * [An example on extending an Ivy module](dependency_managers/apache_ivy/extend-ivy-module-example.txt)
-
-# Contributing
-
-If you would like to contribute, please ensure that your contribution is correct and formatted consistently (a guideline will be provided in the future).
-
-Credits will be placed in the wiki.
-
-Please send an email to main@computingfoundation.org with any suggestions, comments or questions.
-
-Thanks.
